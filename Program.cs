@@ -9,8 +9,12 @@ namespace Exercises
         static void Main(string[] args)
         {
             // Simple Calculator
-            Question01 question01 = new();
-            question01.Calculator();
+            //Question01 question01 = new();
+            //question01.Calculator();
+
+            // Carpeting Store
+            Question02 question02 = new();
+            question02.Carpeting();
         }
     }
 }
