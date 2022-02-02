@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+// 22931 - Marcos Oliveira
 namespace Exercises.Exercise01
 {
     public class Question01
@@ -29,23 +30,23 @@ namespace Exercises.Exercise01
             double add, sub, times, divQuotient, divRemainder;
 
             add = num1 + num2;
-            Console.Write("Sum: " + add);
+            Console.Write($"Sum: {add}.");
             Console.WriteLine("");
 
             sub = num1 - num2;
-            Console.Write("Sub: " + sub);
+            Console.Write($"Sub: {sub}.");
             Console.WriteLine("");
 
             times = num1 * num2;
-            Console.Write("Times: " + times);
+            Console.Write($"Times: {times}.");
             Console.WriteLine("");
 
             divQuotient = num1 / num2;
-            Console.Write("Quotient: " + divQuotient);
+            Console.Write($"Quotient: {divQuotient}.");
             Console.WriteLine("");
 
             divRemainder = num1 % num2;
-            Console.Write("Remainder: " + divRemainder);
+            Console.Write($"Remainder: {divRemainder}.");
         }
     }
 }

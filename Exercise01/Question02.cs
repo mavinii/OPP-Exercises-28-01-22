@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+// 22931 - Marcos Oliveira
 namespace Exercises.Exercise01
 {
     public class Question02
@@ -34,8 +35,8 @@ namespace Exercises.Exercise01
             double calculatedPrice = totalArea * carpetingPrice;
             Console.WriteLine("");
             
-            Console.WriteLine("Total area in square metres: "+totalArea);
-            Console.WriteLine("Calculated price: £"+calculatedPrice);
+            Console.WriteLine($"Total area in square metres: {totalArea}.");
+            Console.WriteLine($"Calculated price: $ {calculatedPrice}.");
         }
     }
 }
